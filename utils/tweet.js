@@ -2,7 +2,7 @@
 const Twitter = require('twitter')
 
 // import utils
-const generate = require('../utils/generate')
+const generate = require('./generate')
 
 const tweet = new Twitter({   
     consumer_key: process.env.TWITTER_CONSUMER_KEY,
